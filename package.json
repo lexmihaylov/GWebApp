@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "rollup -c --no-treeshake && clasp push"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.68",
+    "rollup": "^3.29.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-scss": "^4.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "sass": "^1.67.0"
+  }
+}

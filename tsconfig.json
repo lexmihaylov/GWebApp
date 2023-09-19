@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ES2015",
+            "dom"
+        ],
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "./gwebapp/*": ["./gwebapp/*"]
+        }
+    }
+}
