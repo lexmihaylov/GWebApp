@@ -11,7 +11,7 @@ export default [{
     typescript(),
     copy({
       targets: [
-        {src: './src/views/**/*', dest: './build/views'},
+        {src: './views/**/*', dest: './build/views'},
         {src: './appsscript.json', dest: './build/'}
     ]})
   ]
